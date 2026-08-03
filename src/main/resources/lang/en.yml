@@ -3,7 +3,7 @@
 # Placeholders use {name} syntax (e.g. {player}, {slot}).
 # To use this file, set `language: en` in config.yml.
 
-prefix: "<gray>[<aqua>Kits</aqua>]</gray> "
+prefix: "<gray>[<gradient:#FF5A5A:#DE5078>ᴘᴠᴘᴄᴇɴᴛʀᴀʟ</gradient>]</gray> "
 
 motd:
   message:
