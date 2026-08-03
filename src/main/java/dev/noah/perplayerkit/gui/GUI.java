@@ -315,16 +315,16 @@ public class GUI {
                         lang("gui.lore-left-load"), lang("gui.lore-right-edit")));
                 addEditLoadEC(menu.getSlot(18 + col), slotNum);
             } else {
-                menu.getSlot(18 + col).setItem(createItem(Material.ENDER_EYE, 1,
+                menu.getSlot(18 + col).setItem(createItem(Material.ENDER_CHEST, 1,
                         lang("gui.enderchest-slot-name", "slot", String.valueOf(slotNum)),
                         lang("gui.lore-click-create")));
                 addEditEC(menu.getSlot(18 + col), slotNum);
             }
 
             if (KitManager.get().getItemStackArrayById(p.getUniqueId().toString() + slotNum) != null) {
-                menu.getSlot(27 + col).setItem(createItem(Material.KNOWLEDGE_BOOK, 1, lang("gui.kit-exists"), lang("gui.lore-click-edit")));
+                menu.getSlot(27 + col).setItem(createItem(Material.WARPED_SIGN, 1, lang("gui.kit-exists"), lang("gui.lore-click-edit")));
             } else {
-                menu.getSlot(27 + col).setItem(createItem(Material.BOOK, 1, lang("gui.kit-not-found"), lang("gui.lore-click-create")));
+                menu.getSlot(27 + col).setItem(createItem(Material.CRIMSON_SIGN, 1, lang("gui.kit-not-found"), lang("gui.lore-click-create")));
             }
             addEdit(menu.getSlot(27 + col), slotNum);
         }
