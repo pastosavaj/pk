@@ -54,12 +54,12 @@ backup:
   # Backups are stored in the plugins/PerPlayerKit/backups/ directory
 
 motd:
-  enabled: true
+  enabled: false
   delay: 5
   # MOTD message text lives in the active lang file under motd.message
 
 scheduled-broadcast:
-  enabled: true
+  enabled: false
   period: 90 #in seconds
   # Broadcast message text lives in the active lang file under scheduled-broadcast.messages
 
